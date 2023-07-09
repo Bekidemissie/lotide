@@ -2,7 +2,7 @@
 This function should take in a source array and a itemsToRemove array. It should return a new array with only those elements from source that are not present in the itemsToRemove array.
 */
 
-const without = fuction(array, itemsToRemove)
+const without = function (array, itemsToRemove)
 {
     let newarray = [];
     for (let i = 0; i < array.length; i++) {
@@ -14,12 +14,14 @@ const without = fuction(array, itemsToRemove)
             break;
           }
           if (itemsToRemove.length - 1 === j) {
-            newArray.push(array[i]);
+            newarray.push(array[i]);
            
           }
         }
       }
-      return newArray;
+      console.log(newarray);
+
+      return newarray;
     };
   const words = ["hello", "world", "lighthouse"];
 without(words, ["lighthouse"]);
