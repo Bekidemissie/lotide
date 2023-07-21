@@ -6,8 +6,8 @@ const tail = function(arr)
      newarray.push(arr[i])
     
 }  
-  console.log(newarray);
+  //console.log(newarray);
 
 };
-const result = tail(["Hello", "Lighthouse", "Labs"]);
+//const result = tail(["Hello", "Lighthouse", "Labs"]);
 module.exports = tail;
