@@ -1,3 +1,4 @@
+
 const tail = function(arr)
 {  let newarray = [];
 
@@ -9,3 +10,4 @@ const tail = function(arr)
 
 };
 const result = tail(["Hello", "Lighthouse", "Labs"]);
+module.exports = tail;
