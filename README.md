@@ -41,8 +41,3 @@ The following functions are currently implemented:
 
 
 
-letterPositions: Returns all the indicies (zero-based positions) in the string where each character is found.
-findKeyByValue: Returns the first key containing the value of the inputted object and value. If no key with the given value is found, return undefined.
-map: Returns a new array based on a map function which takes in two arguements: An array to map, and a callback function.
-takeUntil: Returns a truthy value based on a given array and callback which are passed as parameters of the takeUntil function.
-findKey: Returns a truthy value based on a given object and callback which are passed as parameters of the findKey function. If no key is found, return undefined.
