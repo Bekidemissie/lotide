@@ -26,7 +26,7 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
-* `function1( head:)`: Returns the first item in an array; undefined if the array is empty
+* `head([])`: Returns the first item in an array; undefined if the array is empty
 * `function2(tail:)`: Returns everything but the first item in an array; returns an empty array if provided array is empty.
 * `function4(middle:)`: Returns the middle-most element(s) of a given array; for arrays with one or two elements, return an empty array.
 * `function5(without:)`: Returns a subset of a given array, removing unwanted elements
