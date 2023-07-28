@@ -1,11 +1,8 @@
-const assertEqual = require('../assertEqual');
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1,1);
-//Comparing identical strings
-assertEqual('Travis', 'Travis');
-//Comparing non-identical strings
-assertEqual('iuewahfjkda','aufheuiwahfiukd');
-//Comparing identical numbers
-assertEqual(22,22);
-//Comparing non-identical numbers
-assertEqual(28,32);
+const assertEqual = require("../assertEqual");
+const eqArrays = require("../eqArrays");
+
+
+
+ eqArrays([1, 2, 3], [1, 2, 3]); // => true
+ eqArrays([1, 2, 3], [3, 2, 1]); // => false
+ assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true); // pass
