@@ -6,10 +6,12 @@ const tail = function (arr) {
     newarray.push(arr[i])
 
   }
-
+  console.log(newarray);
   return newarray;
+  
 
 };
 const result = tail(["Hello", "Lighthouse", "Labs"]);
 module.exports = tail;
 
+//console.log(result);
