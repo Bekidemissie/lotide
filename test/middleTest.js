@@ -1,7 +1,7 @@
 
 const assert = require('chai').assert;
 const middle = require('../middle');
-module.exports = middle;
+
 
 describe("# middle", () => {
     it("returns 2 for [1, 2, 3]", () => {

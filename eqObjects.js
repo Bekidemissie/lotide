@@ -38,3 +38,4 @@ const eqArrays = function(array1, array2) {
 
   assertEqual(eqObjects(ab, ba), true);
   eqObjects(ab, ba);
+  module.exports = eqObjects;
